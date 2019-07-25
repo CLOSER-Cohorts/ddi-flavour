@@ -1,7 +1,6 @@
 # ddi-flavour
 Scripts to convert between SledgeHammer output and Colectica and add in some nice naming
 
-
 | Edit script  | Explanation                                    |
 | -------------| -----------------------------------------------|
 | fandr.py     | Insert <r:String> where absent from output     |
