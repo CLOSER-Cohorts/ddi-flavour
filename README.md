@@ -2,7 +2,7 @@
 Scripts to convert between SledgeHammer output and Colectica and add in some nice naming
 
 | Edit script  | Explanation                                    |
-| -------------| -----------------------------------------------|
+| --- | :---|
 | fandr.py     | Insert <r:String> where absent from output     |
 | fandr2.py    | Names the DDI Instance                         |
 | fandr3.py    | Names the Physical Instance                    |
