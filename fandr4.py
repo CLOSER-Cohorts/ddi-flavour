@@ -20,7 +20,13 @@ for line in renaming:
 
 for filename in glob.glob('*.ddi32.rp.xml'):
   fn=filename.split(".")
-  instname=str(newdict[fn[0]])+" Logical Product"  
+  try:
+    instname=str(newdict[fn[0]])+" Logical Product" 
+  except KeyError:
+    print "filename" + instnames + " in renaming file does not match data file"
+    sys.exit(2)
+
+ 
   psreplacement=psreplace1+instname+psreplace2  
   try:
     s = open(filename).read()
