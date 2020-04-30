@@ -24,7 +24,7 @@ for filename in glob.glob('*.ddi32.rp.xml'):
   fn=filename.split(".")
   instnames=str(fn[0])
   try:
-    instnamel=str(newdict[fn[0]])+" Instance"
+    instnamel=str(newdict[fn[0]])+" Dataset"
   except KeyError:
     print "filename" + instnames + " in renaming file does not match data file"
     sys.exit(2)
