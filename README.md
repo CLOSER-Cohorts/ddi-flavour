@@ -18,4 +18,4 @@ Scripts to convert between SledgeHammer output and Colectica and add in some nic
 
 Input 
 - DDI dataset XML from Sledgehammer output
-- Tab delimited.txt file named renaming_list.txt which should contain; the instrument prefix, dataset title, DOI/webiste link, and whehter to show the link publically (1) or not (0)
+- Tab delimited.txt file named renaming_list.txt which should contain; the instrument prefix, dataset title, DOI/website link, and whether to show the link publicly (1) or not (0)
